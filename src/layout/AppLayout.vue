@@ -6,8 +6,8 @@
       </el-header>
 
       <el-container>
-        <el-aside width="200px">
-          <AsideTag />
+        <el-aside width="260px">
+          <AsideComp />
         </el-aside>
         <el-main>
           <router-view />
@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts" setup>
-import AsideTag from '@/components/AsideTag.vue'
+import AsideComp from '@/components/AsideComp.vue'
 import HeaderComp from '@/components/HeaderComp.vue'
 </script>
 
