@@ -1,8 +1,7 @@
-import axios,{ AxiosRequestConfig } from 'axios';
-
+import axios, { AxiosRequestConfig } from 'axios'
 
 const service = axios.create({
-  baseURL:import.meta.env.VITE_API_BASEURL
+  baseURL: import.meta.env.VITE_API_BASEURL
 })
 service.interceptors.request.use(
   config => {

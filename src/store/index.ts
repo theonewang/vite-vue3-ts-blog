@@ -2,8 +2,8 @@ import { InjectionKey } from 'vue'
 import { createStore, useStore as baseUseStore, Store } from 'vuex'
 
 export interface State {
-    count: number
-  }
+  count: number
+}
 
 export const key: InjectionKey<Store<State>> = Symbol('')
 // Create a new store instance.

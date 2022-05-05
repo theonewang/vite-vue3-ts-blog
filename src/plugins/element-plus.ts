@@ -3,7 +3,7 @@ import 'element-plus/dist/index.css'
 import { App } from 'vue'
 
 export default {
-    install (app:App) {
-        app.use(ElementPlus)
-    }
+  install (app: App) {
+    app.use(ElementPlus)
+  }
 }
